@@ -1,0 +1,57 @@
+                .img {
+                    /* width: 600px; */
+                    /* height: 100; */
+                    /* padding: 50px; */
+                    float: left;
+                    /* width: 33.33%; */
+                    padding: 100px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 50%;
+                    margin-top: 0;
+                }
+                
+                .text-view {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    color: white;
+                    text-align: justify;
+                    padding: 90px;
+                }
+                
+                body {
+                    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.712)), url(https://www.wallpapersdsc.net/wp-content/uploads/2017/10/Black-Music-HD-Background.jpg);
+                    height: 400;
+                }
+                
+                .title {
+                    font-size: 10vh;
+                }
+                
+                * {
+                    box-sizing: border-box;
+                    font-family: Gilmer, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+                }
+                
+                .avatar {
+                    vertical-align: left;
+                    width: 90px;
+                    height: 50px;
+                    border-radius: 50%;
+                    float: left;
+                    /* width: 33.33%; */
+                    padding: 5px;
+                }
+                
+                .link-section {
+                    height: auto;
+                    padding-bottom: 100px;
+                    padding-left: 36px;
+                }
+                
+                .text-link {
+                    color: burlywood;
+                    vertical-align: middle;
+                }
