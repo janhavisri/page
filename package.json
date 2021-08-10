@@ -1,6 +1,9 @@
 {
     "name": "firstapp",
     "version": "0.1.0",
+    "engines": {
+        "node": "16.4.2"
+    },
     "private": true,
     "dependencies": {
         "@material-ui/core": "^4.12.2",
@@ -16,9 +19,6 @@
         "web-vitals": "^1.1.2"
     },
 
-    "engines": {
-        "node": "16.4.2"
-    },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
